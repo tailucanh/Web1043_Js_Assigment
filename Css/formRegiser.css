@@ -1,0 +1,210 @@
+
+.formRegiser{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 20px;
+ 
+}
+.formRegiser .boxButton{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formRegiser .boxButton a{
+    text-decoration: none;
+    text-align: center;
+   
+}
+.formRegiser .boxButton button{
+   
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    color: #f3f3f3;
+    height: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    width: 7em;
+    border: none;
+    margin-left: 20px;
+}
+.formRegiser .boxButton button:hover {
+    color: #fff;
+    background-image: linear-gradient(135deg, #86d472, #008aff);
+}
+.formRegiser hr{
+    border: none;
+    outline: none;
+    width: 700px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 1px rgb(202, 194, 194);
+}
+.formRegiser .form{
+    margin:  0 auto;
+    box-shadow: 0px 0px 3px 1px rgb(202, 194, 194);
+    width: 670px;
+    padding-left: 40px;
+   
+    padding-bottom: 30px;
+}
+.formRegiser .form h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+.formRegiser .form hr{
+    width:500px;
+    text-align: left;
+    margin-bottom:30px ;
+}
+
+.formRegiser .form .form-group label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+  
+   
+}
+.formRegiser .form .form-group {
+    width: 600px;
+    display: inline-block;
+    padding: 5px;
+}
+.formRegiser .form span{
+    font-size: 22px;
+   
+}
+
+
+
+
+.formRegiser .form .form-group select{
+    padding: 2px;
+    border: none;  
+    border-radius: 4px;
+    width: 270px;
+    margin-right: 90px;
+    height: 40px;
+    box-shadow: 0 0 4px gray;
+    color: rgb(0, 0, 0);
+    outline: none;
+    margin-bottom: 20px;
+    float: right;
+  
+}
+.formRegiser .form .form-group  .lable_select{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 650;
+    text-align: left;
+}
+.formRegiser .form .form-group select option{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.formRegiser .form .form-group .spWar{
+    width: 600px;
+    text-align: left;
+    padding-left: 230px;
+    color: red;
+
+}
+
+
+
+.formRegiser .form .form-rdo {
+    width: 600px;
+    height: 70px;
+}
+.formRegiser .form .form-rdo fieldset{
+    border: none;
+}
+.formRegiser .form .form-rdo .ipradio{
+    margin-left: 40px;
+    height: 20px;
+    width: 20px;
+   
+}
+.formRegiser .form .form-rdo .spanWarnig{
+    text-align: center;
+    width: 560px;
+    padding: 3px;
+   color: red;
+    margin-left: 225px;
+}
+.formRegiser .form .form-rdo label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.formRegiser .form .form-control{
+    padding: 5px;
+    border: none;  
+    border-radius: 4px;
+    width: 330px;
+    height: 28px;
+    box-shadow: 0 0 4px gray;
+    color: rgb(0, 0, 0);
+    outline: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    float: right;
+    
+}
+.formRegiser .form .form-control:focus{
+    box-shadow: 0 0 4px orangered;  
+    color: black;
+}
+.formRegiser .form .form_button {
+   text-align: center;
+}
+
+.formRegiser .form .form_button button{
+    border: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px 17px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    border: 2px solid #8cdef9;
+    margin-right: 10px;
+}
+
+.formRegiser .form .form_button .button:hover{
+    box-shadow: 2px 5px 5px 0 #bae3f8, 0 17px 20px 0 #bae3f8; 
+    background-color: #bae3f8; 
+}
+
+
+
+.info{
+    position: relative;
+    width: 170px;
+    height: 78px;
+    border: none;
+    margin-left: 50px;
+    padding:  10px 20px ;
+    box-shadow: 0 0 4px gray;
+    margin-bottom: 100px;
+   
+}
+.info i{
+    display: inline-block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #0871d2;
+}
+.info i i{
+    color: #e6381e;
+}

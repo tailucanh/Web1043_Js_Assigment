@@ -1,0 +1,137 @@
+
+.formCart{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 20px;
+ 
+}
+.formCart .boxButton{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formCart .boxButton a{
+    text-decoration: none;
+    text-align: center;
+   
+}
+.formCart .boxButton button{
+   
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    color: #f3f3f3;
+    height: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    width: 7em;
+    border: none;
+    margin-left: 20px;
+
+    
+}
+.formSformCartlide .boxButton button:hover {
+    color: #fff;
+    background-image: linear-gradient(135deg, #86d472, #008aff);
+}
+.formCart hr{
+    border: none;
+    outline: none;
+    width: 700px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 1px rgb(202, 194, 194);
+}
+
+img{
+    width: 55px;
+    margin: 5px;
+}
+img:hover{
+    transform: scale(5);
+}
+
+
+.select {
+   text-align: center;
+}
+.select select{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+.formCart .table{
+    width: 1200px;
+
+}
+
+.formCart .table table{
+     margin:  0 auto;
+     margin-top: 10px;
+     border-collapse: collapse;
+     border: none;
+     outline: none;
+     box-shadow: 0px 0px 10px 1px rgb(188, 182, 182);
+}
+.formCart .table table .title th{
+    padding: 15px 30px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formCart .table table td{
+    box-shadow: 0px 0px 1px 1px rgb(188, 182, 182) ;
+    font-size: 17px;
+    padding: 0px 30px;
+}
+.formCart .table   .check{
+    display: block;
+    width: 30px;
+    height: 20px;
+}
+.formCart .table table  .checkAll{
+    display: block;
+    width: 30px;
+    height: 20px;
+}
+
+.formCart .table table  #amount{
+    height: 30px;
+    font-size: 14px;
+}
+.formCart .table table .tong td{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+}
+
+
+
+
+.info{
+    position: relative;
+    width: 170px;
+    height: 78px;
+    border: none;
+    margin-left: 50px;
+    padding:  10px 20px ;
+    box-shadow: 0 0 4px gray;
+    margin-bottom: 100px;
+   
+}
+.info i{
+    display: inline-block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #0871d2;
+}
+.info i i{
+    color: #e6381e;
+}

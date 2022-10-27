@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="Css/slideImg.css">
+    <script src="Js/slideImg.js"></script>
+</head>
+<body onload="slideShow()" >
+    <div class="formSlide" >
+        <div class="boxButton">
+            <a href="slideImg.html"><Button>SLIDE ẢNH</Button> </a>
+            <a href="cart.html"><Button>GIỎ HÀNG</Button> </a>
+            <a href="formRegister.html"><Button>ĐĂNG KÍ</Button> </a>
+        </div>
+        <hr>
+        <div class="boxImg">        
+            <img id="showImg"  src="Img/anh0.jpg" >
+        </div>
+        <div class="buttonGroup">
+            <button onclick="first()">FIRST</button>
+            <button onclick="back()">BACK</button>
+            <button onclick="stop()">STOP</button>
+            <span id="countImg"></span>
+            <button onclick="start()">START</button>
+            <button onclick="next()">NEXT</button>
+            <button onclick="final()">FINAL</button>
+        </div>
+
+    </div>
+    <div class="info">
+        <i>Họ và tên : <i> Lục Anh Tài</i> </i>
+        <i>MSSV: <i> PH26495</i> </i> 
+        <i>Lớp: <i> IT10305</i></i>
+    </div>
+</body>
+</html>

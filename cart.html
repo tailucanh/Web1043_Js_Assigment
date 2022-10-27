@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="Css/cart.css">
+</head>
+<body>
+    <div class="formCart">
+        <div class="boxButton">
+            <a href="slideImg.html"><Button>SLIDE ẢNH</Button> </a>
+            <a href="cart.html"><Button>GIỎ HÀNG</Button> </a>
+            <a href="formRegister.html"><Button>ĐĂNG KÍ</Button> </a>
+        </div>
+        <hr>
+        <div class="select">
+            <select id="priceRange">
+                <option value="0">Chọn mức giá</option>
+                <option value="1">Dưới 2000 $</option>
+                <option value="2">Dưới 5000 $ </option>
+                <option value="3">Từ 10000 đến 15000 $</option>
+                <option value="4">Dưới 20000 $</option>
+                <option value="5">Trên 20000 $</option>
+            </select>
+        </div>
+
+        <div class="table">
+            <table >
+                <thead>
+                    <tr class="title">
+                        <td> <input type="checkbox" class="checkAll" id="checkAll" > </td>
+                        <th> Hàng hóa</th>
+                        <th> Hình ảnh </td>
+                        <th>Đơn giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+               
+                <tbody>
+                        <tr>
+                        <td> <input type="checkbox"  class="check"     > </td>
+                        <td>Motorola Edge X30</td>
+                        <td> <img  src="Img/Motorola.png" onmouseout="roomOut(this)" onmouseover="roomIn(this)" > </td>
+                        <td>4800 $</td>
+                        <td><input type="number" id="amount" disabled></td>
+                        <td>  </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"    class="check"   > </td>
+                        <td>SamSung Galaxy A53</td>
+                        <td> <img src="Img/ssA53.jpg"  > </td>
+                        <td>8000 $</td>
+                        <td><input type="number" id="amount" disabled> </td>
+                        <td>  </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"    class="check"    > </td>
+                        <td>Bphone A58</td>
+                        <td> <img src="Img/bphoneA58.png"    > </td>
+                        <td>3600 $</td>
+                        <td><input type="number" id="amount" disabled></td>
+                        <td>  </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"    class="check"    > </td>
+                        <td>Nokia G21</td>
+                        <td> <img src="Img/nokiaG21.png"   > </td>
+                        <td>12000 $</td>
+                        <td><input type="number" id="amount" disabled></td>
+                        <td>  </td>
+                    </tr>
+                
+                    <tr>
+                        <td> <input type="checkbox"   class="check"    > </td>
+                        <td>Iphone 12 </td>
+                        <td> <img src="Img/ip12.png"   > </td>
+                        <td>19000 <i>&</i></td>
+                        <td><input type="number" id="amount" disabled></td>
+                        <td>  </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"   class="check"    > </td>
+                        <td>Sony Xperia</td>
+                        <td> <img src="Img/sony.png"   > </td>
+                        <td>14000 <i>&</i></td>
+                        <td><input type="number" id="amount" disabled></td>
+                        <td>  </td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"    class="check"    > </td>
+                        <td>Oppo Find X2 Pro</td>
+                        <td> <img src="Img/oppoX3.png"   > </td>
+                        <td>16000 $</td>
+                        <td><input type="number" id="amount" disabled></td>
+                        <td>  </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="tong" >
+                        <td  colspan="5">Tổng tiền</td>
+                        
+                        <td id="sumPrice"> </td>
+                    </tr>
+                </tfoot>
+              
+            </table>
+        </div>
+        <script src="Js/cart.js"></script>
+
+
+    </div>
+
+    <div class="info">
+        <i>Họ và tên : <i> Lục Anh Tài</i> </i>
+        <i>MSSV: <i> PH26495</i> </i> 
+        <i>Lớp: <i> IT10305</i></i>
+    </div>
+    
+</body>
+</html>

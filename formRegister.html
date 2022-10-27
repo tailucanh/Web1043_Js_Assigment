@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="Css/formRegiser.css">
+    <script src="Js/formRegiser.js"></script>
+</head>
+<body>
+    <div class="formRegiser">
+        <div class="boxButton">
+            <a href="slideImg.html"><Button>SLIDE ẢNH</Button> </a>
+            <a href="cart.html"><Button>GIỎ HÀNG</Button> </a>
+            <a href="formRegister.html"><Button>ĐĂNG KÍ</Button> </a>
+        </div>
+        <hr>
+        <div class="form">
+            <form name="dangnhap" >
+            <h2>Đăng kí khóa học</h2>
+            <div class="form-group">
+                <label>Họ và tên:</label>
+               
+                <input type="text" id="fullName" class="form-control ">
+                <span id="warningName"  class="spWar"></span>
+                
+            </div>
+            
+            
+            <div class="form-group">
+                <label >Email:</label>
+          
+               
+                <input type="email" id="emailForm"  class="form-control"> <br>
+                <span id="warningEmail"  class="spWar"></span>
+            </div>
+            
+            <div class="form-group">
+                <label>Số điện thoại:</label>
+             
+                <input type="text" id="phoneNumber"  class="form-control">
+                <span id="warningPhone" class="spWar"></span>
+            </div>
+            
+            
+            <div class="form-group">
+                <label>Khóa học:</label>
+                <select id="courseType" onchange="selectFrom(this)">
+                    <option  selected disabled  >Các khóa học lập trình</option>
+                    <option  data-price="5 000 000"  >Khóa HTML</option>
+                    <option  data-price="5 500 000">Khóa CSS</option>
+                    <option  data-price="7 060 000">Khóa JS</option>
+                    <option  data-price="10 000 000">Khóa JAVA</option>
+                    <option  data-price="9 000 000">Khóa FLUTTER</option>
+                    <option  data-price="15 000 000">Khóa ANDROID</option>
+                </select>
+                <span id="warningType" class="spWar"></span>
+            </div>
+
+            <div class="form-group">
+                <label >Học phí:</label>
+                <input type="text" id="price" class="form-control" disabled>
+            </div>
+            
+            <div class="form-rdo">
+                    <label> Hình thức học: </label>
+                    <input name="learn" type="radio" class="ipradio" /><span class="spanTitle"> Học tại trường</span>
+                    <input name="learn" type="radio" class="ipradio" /> <span class="spanTitle">Học online</span> <br>
+                    <span id="warningLearn" class="spanWarnig"></span>
+               
+            </div>
+           
+            <hr>
+            <div class="form_button">
+                 <button type="button"  class="button" onclick="loginForm()">Đăng kí </button>
+               
+            </div>
+           
+        </form>
+    </div>
+
+
+    </div>
+
+    <div class="info">
+        <i>Họ và tên : <i> Lục Anh Tài</i> </i>
+        <i>MSSV: <i> PH26495</i> </i> 
+        <i>Lớp: <i> IT10305</i></i>
+    </div>
+    
+</body>
+</html>

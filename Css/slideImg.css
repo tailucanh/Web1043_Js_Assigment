@@ -1,0 +1,107 @@
+
+.formSlide{
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    padding: 20px;
+ 
+}
+.formSlide .boxButton{
+    margin-bottom: 20px;
+}
+.formSlide .boxButton a{
+    text-decoration: none;
+   
+}
+.formSlide .boxButton button{
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    color: #f3f3f3;
+    height: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    width: 7em;
+    border: none;
+    margin-left: 20px;
+}
+.formSlide .boxButton button:hover {
+    color: #fff;
+    background-image: linear-gradient(135deg, #86d472, #008aff);
+}
+.formSlide hr{
+    border: none;
+    outline: none;
+    width: 700px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 1px rgb(202, 194, 194);
+}
+.formSlide .boxImg{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 650px;
+    height: 340px;
+    box-shadow: 0 0 4px gray;
+    color: rgb(0, 0, 0);
+    outline: none;
+    
+}
+.formSlide .boxImg img{
+    width: 650px;
+    height: 340px;
+    background-size: 100% 100%;
+}
+.formSlide .buttonGroup{
+    margin-top: 10px;
+} 
+.formSlide .buttonGroup button{
+    border: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    border: 2px solid #edb6c4;
+    margin-right: 10px;
+    
+}
+.formSlide .buttonGroup button:hover{
+    box-shadow: 2px 5px 5px 0 #edb6c4, 0 17px 20px 0 #edb6c4; 
+    background-color: #edb6c4; 
+  
+}
+.formSlide .buttonGroup span{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 14px;
+    color: red;
+}
+.info{
+    position: relative;
+    width: 170px;
+    height: 78px;
+    border: none;
+    margin-left: 50px;
+    padding:  10px 20px ;
+    box-shadow: 0 0 4px gray;
+    margin-bottom: 100px;
+   
+}
+.info i{
+    display: inline-block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #0871d2;
+}
+.info i i{
+    color: #e6381e;
+}
